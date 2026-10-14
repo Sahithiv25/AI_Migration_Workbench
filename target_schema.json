@@ -1,0 +1,58 @@
+{
+  "users": {
+    "pk": "user_id",
+    "required": [
+      "user_id",
+      "full_name",
+      "email"
+    ],
+    "foreign_keys": {}
+  },
+  "accounts": {
+    "pk": "account_id",
+    "required": [
+      "account_id",
+      "account_name"
+    ],
+    "foreign_keys": {
+      "owner_id": "users.user_id"
+    }
+  },
+  "contacts": {
+    "pk": "contact_id",
+    "required": [
+      "contact_id",
+      "account_id",
+      "last_name"
+    ],
+    "foreign_keys": {
+      "account_id": "accounts.account_id"
+    }
+  },
+  "opportunities": {
+    "pk": "opportunity_id",
+    "required": [
+      "opportunity_id",
+      "account_id",
+      "stage",
+      "amount"
+    ],
+    "foreign_keys": {
+      "account_id": "accounts.account_id",
+      "owner_id": "users.user_id"
+    }
+  },
+  "activities": {
+    "pk": "activity_id",
+    "required": [
+      "activity_id",
+      "activity_date"
+    ],
+    "foreign_keys": {
+      "account_id": "accounts.account_id",
+      "contact_id": "contacts.contact_id",
+      "opportunity_id": "opportunities.opportunity_id",
+      "owner_id": "users.user_id"
+    }
+  }
+}

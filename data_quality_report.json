@@ -1,0 +1,378 @@
+{
+  "accounts_legacy": {
+    "dataset": "accounts_legacy.csv",
+    "total_rows": 10000,
+    "total_columns": 6,
+    "columns": {
+      "Legacy Acct ID": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 10000,
+        "sample_values": [
+          "A0000001",
+          "A0000002",
+          "A0000003"
+        ]
+      },
+      "Client / Organization": {
+        "data_type": "str",
+        "missing_count": 231,
+        "missing_percentage": 2.31,
+        "unique_values": 864,
+        "sample_values": [
+          "Evergreen Evergreen Group",
+          "Cedar Blue Solutions",
+          "Meridian Evergreen Industries"
+        ]
+      },
+      "Sector": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 4,
+        "sample_values": [
+          "Retail",
+          "Healthcare",
+          "Finance"
+        ]
+      },
+      "Web Domain": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 10000,
+        "sample_values": [
+          "customer1.example.test",
+          "customer2.example.test",
+          "customer3.example.test"
+        ]
+      },
+      "Billing Country": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 6,
+        "sample_values": [
+          "USA",
+          "US",
+          "USA"
+        ]
+      },
+      "Acct Rep": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 201,
+        "sample_values": [
+          "U000186",
+          "U000050",
+          "U000004"
+        ]
+      }
+    }
+  },
+  "contacts_legacy": {
+    "dataset": "contacts_legacy.csv",
+    "total_rows": 25000,
+    "total_columns": 6,
+    "columns": {
+      "Legacy Contact ID": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 25000,
+        "sample_values": [
+          "C0000001",
+          "C0000002",
+          "C0000003"
+        ]
+      },
+      "Parent Account": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 9153,
+        "sample_values": [
+          "A0002930",
+          "A0000450",
+          "A0007052"
+        ]
+      },
+      "Given Name": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 12,
+        "sample_values": [
+          "Olivia",
+          "Ethan",
+          "Ethan"
+        ]
+      },
+      "Surname": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 10,
+        "sample_values": [
+          "Williams",
+          "Shah",
+          "Brown"
+        ]
+      },
+      "Email Address": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 24319,
+        "sample_values": [
+          "contact1@example.test",
+          "contact2@example.test",
+          "contact3@example.test"
+        ]
+      },
+      "Mobile": {
+        "data_type": "str",
+        "missing_count": 583,
+        "missing_percentage": 2.33,
+        "unique_values": 9997,
+        "sample_values": [
+          "+1-202-555-0000",
+          "+1-202-555-0001",
+          "+1-202-555-0002"
+        ]
+      }
+    }
+  },
+  "opportunities_legacy": {
+    "dataset": "opportunities_legacy.csv",
+    "total_rows": 15000,
+    "total_columns": 7,
+    "columns": {
+      "Deal Key": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 15000,
+        "sample_values": [
+          "O0000001",
+          "O0000002",
+          "O0000003"
+        ]
+      },
+      "Customer Ref": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 7692,
+        "sample_values": [
+          "A0004684",
+          "A0004082",
+          "A0005446"
+        ]
+      },
+      "Deal Owner": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 200,
+        "sample_values": [
+          "U000068",
+          "U000049",
+          "U000174"
+        ]
+      },
+      "Pipeline Status": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 6,
+        "sample_values": [
+          "Prospecting",
+          "Won",
+          "Qualification"
+        ]
+      },
+      "Contract Value": {
+        "data_type": "int64",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 14754,
+        "sample_values": [
+          "368903",
+          "307675",
+          "215419"
+        ]
+      },
+      "Currency Code": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 3,
+        "sample_values": [
+          "GBP",
+          "USD",
+          "USD"
+        ]
+      },
+      "Expected Close": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 1001,
+        "sample_values": [
+          "2027-03-07",
+          "2027-04-10",
+          "2025-03-18"
+        ]
+      }
+    }
+  },
+  "activities_legacy": {
+    "dataset": "activities_legacy.csv",
+    "total_rows": 30000,
+    "total_columns": 7,
+    "columns": {
+      "Event ID": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 30000,
+        "sample_values": [
+          "T0000001",
+          "T0000002",
+          "T0000003"
+        ]
+      },
+      "Related Account": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 9518,
+        "sample_values": [
+          "A0004835",
+          "A0005107",
+          "A0005183"
+        ]
+      },
+      "Related Contact": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 17254,
+        "sample_values": [
+          "C0013083",
+          "C0021152",
+          "C0008143"
+        ]
+      },
+      "Related Deal": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 12926,
+        "sample_values": [
+          "O0014201",
+          "O0014088",
+          "O0009100"
+        ]
+      },
+      "Interaction Type": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 3,
+        "sample_values": [
+          "Email",
+          "Email",
+          "Email"
+        ]
+      },
+      "Event Date": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 601,
+        "sample_values": [
+          "2025-12-15",
+          "2026-02-25",
+          "2025-12-02"
+        ]
+      },
+      "Performed By": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 201,
+        "sample_values": [
+          "U000099",
+          "U000090",
+          "U999999"
+        ]
+      }
+    }
+  },
+  "users_legacy": {
+    "dataset": "users_legacy.csv",
+    "total_rows": 200,
+    "total_columns": 5,
+    "columns": {
+      "Legacy User Key": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 200,
+        "sample_values": [
+          "U000001",
+          "U000002",
+          "U000003"
+        ]
+      },
+      "Employee Name": {
+        "data_type": "str",
+        "missing_count": 7,
+        "missing_percentage": 3.5,
+        "unique_values": 97,
+        "sample_values": [
+          "Mateo Smith",
+          "Liam Brown",
+          "Mateo Shah"
+        ]
+      },
+      "Work Email": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 194,
+        "sample_values": [
+          "user1@atlas-example.test",
+          "user2@atlas-example.test",
+          "user3@atlas-example.test"
+        ]
+      },
+      "Team": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 3,
+        "sample_values": [
+          "Sales",
+          "Sales",
+          "Sales"
+        ]
+      },
+      "Enabled": {
+        "data_type": "str",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "unique_values": 2,
+        "sample_values": [
+          "Yes",
+          "Yes",
+          "No"
+        ]
+      }
+    }
+  }
+}

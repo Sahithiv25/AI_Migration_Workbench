@@ -1,0 +1,104 @@
+[
+  {
+    "source": "accounts",
+    "field": "Acct Rep",
+    "references": "users.Legacy User Key",
+    "total_rows": 10000,
+    "missing_references": 0,
+    "broken_references": 233,
+    "broken_examples": [
+      "U999999",
+      "U999999",
+      "U999999",
+      "U999999",
+      "U999999"
+    ]
+  },
+  {
+    "source": "contacts",
+    "field": "Parent Account",
+    "references": "accounts.Legacy Acct ID",
+    "total_rows": 25000,
+    "missing_references": 0,
+    "broken_references": 583,
+    "broken_examples": [
+      "A9999999",
+      "A9999999",
+      "A9999999",
+      "A9999999",
+      "A9999999"
+    ]
+  },
+  {
+    "source": "opportunities",
+    "field": "Customer Ref",
+    "references": "accounts.Legacy Acct ID",
+    "total_rows": 15000,
+    "missing_references": 0,
+    "broken_references": 350,
+    "broken_examples": [
+      "A9999999",
+      "A9999999",
+      "A9999999",
+      "A9999999",
+      "A9999999"
+    ]
+  },
+  {
+    "source": "opportunities",
+    "field": "Deal Owner",
+    "references": "users.Legacy User Key",
+    "total_rows": 15000,
+    "missing_references": 0,
+    "broken_references": 0,
+    "broken_examples": []
+  },
+  {
+    "source": "activities",
+    "field": "Related Account",
+    "references": "accounts.Legacy Acct ID",
+    "total_rows": 30000,
+    "missing_references": 0,
+    "broken_references": 0,
+    "broken_examples": []
+  },
+  {
+    "source": "activities",
+    "field": "Related Contact",
+    "references": "contacts.Legacy Contact ID",
+    "total_rows": 30000,
+    "missing_references": 0,
+    "broken_references": 700,
+    "broken_examples": [
+      "C9999999",
+      "C9999999",
+      "C9999999",
+      "C9999999",
+      "C9999999"
+    ]
+  },
+  {
+    "source": "activities",
+    "field": "Related Deal",
+    "references": "opportunities.Deal Key",
+    "total_rows": 30000,
+    "missing_references": 0,
+    "broken_references": 0,
+    "broken_examples": []
+  },
+  {
+    "source": "activities",
+    "field": "Performed By",
+    "references": "users.Legacy User Key",
+    "total_rows": 30000,
+    "missing_references": 0,
+    "broken_references": 700,
+    "broken_examples": [
+      "U999999",
+      "U999999",
+      "U999999",
+      "U999999",
+      "U999999"
+    ]
+  }
+]

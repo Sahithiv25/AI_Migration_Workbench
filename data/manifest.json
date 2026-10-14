@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "scale": 1.0,
+  "row_counts": {
+    "users": 200,
+    "accounts": 10000,
+    "contacts": 25000,
+    "opportunities": 15000,
+    "activities": 30000
+  },
+  "injected_defects": 5814,
+  "note": "Synthetic data only. Duplicate candidate labels are heuristic test cases, not fully adjudicated entity-resolution truth."
+}
